@@ -1,4 +1,0 @@
-02-06-2026 11:29:48 [INFO] [main] [DriverFactory.DriverFactory.SetUpDriver:51] Started 'chrome' driver (headless=false).
-02-06-2026 11:29:50 [INFO] [main] [Hooks.Hooks.setUp:27] Scenario 'Successful login with valid credentials' setup - 'chrome' (private mode) at https://www.saucedemo.com/
-02-06-2026 11:29:51 [INFO] [main] [DriverFactory.DriverFactory.quitDriver:76] Driver quit and removed from thread.
-02-06-2026 11:29:51 [INFO] [main] [Hooks.Hooks.tearDown:45] Scenario 'Successful login with valid credentials' teardown - browser closed.
