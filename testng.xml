@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<!--
+  Pick what to run by enabling/disabling <test> blocks below.
+  Each block points at a Cucumber runner; the runner's @CucumberOptions(tags=...)
+  decides which scenarios execute. Add a new feature suite by creating a
+  <Feature>Runner class and adding a <test> block here.
+
+  Run from IntelliJ: right-click this file -> Run.
+  Run from Maven:    mvn clean test                       (uses this file)
+                     mvn clean test -DsuiteXmlFile=other.xml
+-->
+<suite name="AutomationFrameWorkTemplate" verbose="1">
+
+    <!-- LOGIN scenarios only -->
+    <test name="Login">
+        <classes>
+            <class name="Runner.LoginTest"/>
+        </classes>
+    </test>
+
+    <!-- ALL scenarios (uncomment to run everything) -->
+    <!--
+    <test name="All Scenarios">
+        <classes>
+            <class name="Runner.TestRunner"/>
+        </classes>
+    </test>
+    -->
+
+    <!-- Template for another feature (create CheckoutRunner with tags = "@checkout") -->
+    <!--
+    <test name="Checkout">
+        <classes>
+            <class name="Runner.CheckoutRunner"/>
+        </classes>
+    </test>
+    -->
+
+</suite>
