@@ -1,5 +1,7 @@
 # Project exclude paths
-/testOutputs/target/
+# Generated test artifacts: Allure results, Cucumber reports, screenshots, logs
+/testOutputs/
+testOutputs/
 
 ## Maven
 /target/
@@ -27,4 +29,14 @@ Thumbs.db
 ## Others
 .vscode/
 node_modules/
+
+## Cucumber / Allure (in case output dirs are reconfigured outside testOutputs)
+.allure/
+allure-results/
+allure-report/
+cucumber-reports/
+
+## Env / secrets
+*.env
+.env
 
