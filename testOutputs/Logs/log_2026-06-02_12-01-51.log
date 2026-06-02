@@ -1,0 +1,20 @@
+02-06-2026 12:01:51 [DEBUG] [main] suiteXmlPath: "C:\ProgramsVadotta\AutoMationFrameWorkTemplate\testng.xml"
+02-06-2026 12:01:52 [TRACE] [main] [Graph] ADDING NODE AbstractTestNGCucumberTests.setUpClass(org.testng.ITestContext)[pri:0, instance:null] -393284817
+02-06-2026 12:01:52 [TRACE] [main] [Graph] ================ SORTING
+02-06-2026 12:01:52 [TRACE] [main] [Graph] =============== DONE SORTING
+02-06-2026 12:01:52 [TRACE] [main] [Graph] ====== SORTED NODES
+02-06-2026 12:01:52 [TRACE] [main] [Graph] ====== END SORTED NODES
+02-06-2026 12:01:52 [TRACE] [main] [Graph] ADDING NODE AbstractTestNGCucumberTests.tearDownClass()[pri:0, instance:null] 1523153566
+02-06-2026 12:01:52 [TRACE] [main] [Graph] ================ SORTING
+02-06-2026 12:01:52 [TRACE] [main] [Graph] =============== DONE SORTING
+02-06-2026 12:01:52 [TRACE] [main] [Graph] ====== SORTED NODES
+02-06-2026 12:01:52 [TRACE] [main] [Graph] ====== END SORTED NODES
+02-06-2026 12:01:52 [TRACE] [main] [Graph] ADDING NODE AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.LoginRunner@717d7587] 753688152
+02-06-2026 12:01:52 [TRACE] [main] [Graph] ================ SORTING
+02-06-2026 12:01:52 [TRACE] [main] [Graph] =============== DONE SORTING
+02-06-2026 12:01:52 [TRACE] [main] [Graph] ====== SORTED NODES
+02-06-2026 12:01:52 [TRACE] [main] [Graph] ====== END SORTED NODES
+02-06-2026 12:01:52 [INFO] [main] [TestNG] Running:
+  C:\ProgramsVadotta\AutoMationFrameWorkTemplate\testng.xml
+
+02-06-2026 12:01:53 [WARN] [main] The test method 'io.cucumber.testng.AbstractTestNGCucumberTests.runScenario' will be skipped since its data provider 'scenarios' returned an empty array or iterator. 
