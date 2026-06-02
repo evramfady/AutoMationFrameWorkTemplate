@@ -1,2 +1,30 @@
 # Project exclude paths
 /testOutputs/target/
+
+## Maven
+/target/
+**/target/
+
+## IntelliJ
+.idea/
+*.iml
+
+## Eclipse
+.classpath
+.project
+.settings/
+
+## OS files
+.DS_Store
+Thumbs.db
+
+## Logs
+*.log
+
+## Java
+*.class
+
+## Others
+.vscode/
+node_modules/
+
